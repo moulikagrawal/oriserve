@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        AWS_DEPLOYMENT_GROUP = 'Ori_Jenkins_Deploy'
-        AWS_APPLICATION_NAME = 'Oriserve'
+        AWS_DEPLOYMENT_GROUP = 'Dev-deploy'
+        AWS_APPLICATION_NAME = 'Oriserve-Deploy'
         S3_BUCKET = 'oriserve-package'
         S3_KEY = 'oriserve.zip'
         REGION = 'ap-south-1'
