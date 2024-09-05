@@ -1,4 +1,3 @@
-script { it ->
 pipeline {
     agent any
     environment {
@@ -18,6 +17,7 @@ pipeline {
             steps {
                 script {
                     // Build steps (e.g., npm install, mvn package, etc.)
+                    echo ("Building")
                 }
             }
         }
@@ -57,5 +57,4 @@ pipeline {
             cleanWs()
         }
     }
-}
 }
