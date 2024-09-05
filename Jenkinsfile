@@ -1,3 +1,4 @@
+script { it ->
 pipeline {
     agent any
     environment {
@@ -56,4 +57,5 @@ pipeline {
             cleanWs()
         }
     }
+}
 }
