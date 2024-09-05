@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:moulikagrawal/oriserve.git'
+                git branch: 'main', url: 'https://github.com/moulikagrawal/oriserve.git'
             }
         }
         stage('Build') {
