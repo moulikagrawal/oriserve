@@ -4,7 +4,6 @@ os: linux
 files:
   - source: /webapp
     destination: /usr/share/nginx/html
-    overwrite: true
 
 hooks:
   BeforeInstall:
